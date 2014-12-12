@@ -1,0 +1,174 @@
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Proxima Nova","proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #222222;
+    text-rendering: optimizeLegibility;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 60%;
+    color: #6f6f6f;
+    line-height: 0; }
+
+h1 {
+    font-size: 2.125rem; }
+
+h2 {
+    font-size: 1.6875rem; }
+
+h3 {
+    font-size: 1.375rem; }
+
+h4 {
+    font-size: 1.125rem; }
+
+h5 {
+    font-size: 1.125rem; }
+
+h6 {
+    font-size: 1rem; }
+
+.subheader {
+    line-height: 1.4;
+    color: #6f6f6f;
+    font-weight: normal;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem; }
+
+hr {
+    border: solid #dddddd;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 1.25rem 0 1.1875rem;
+    height: 0; }
+
+/* Helpful Typography Defaults */
+em, i {
+    font-style: italic;
+    line-height: inherit; }
+
+strong, b {
+    font-weight: bold;
+    line-height: inherit; }
+
+small {
+    font-size: 60%;
+    line-height: inherit; }
+
+code {
+    font-family: Consolas, 'Liberation Mono', Courier, monospace;
+    font-weight: normal;
+    color: #333333;
+    background-color: #f8f8f8;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dfdfdf;
+    padding: 0.125rem 0.3125rem 0.0625rem; }
+
+/* Lists */
+ul, ol, dl {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    list-style-position: outside;
+    font-family: inherit; }
+
+ul {
+    margin-left: 1.1rem; }
+ul.no-bullet {
+    margin-left: 0; }
+ul.no-bullet li ul, ul.no-bullet li ol {
+    margin-left: 1.25rem;
+    margin-bottom: 0;
+    list-style: none; }
+
+/* Unordered Lists */
+ul li ul, ul li ol {
+    margin-left: 1.25rem;
+    margin-bottom: 0; }
+ul.square li ul, ul.circle li ul, ul.disc li ul {
+    list-style: inherit; }
+ul.square {
+    list-style-type: square;
+    margin-left: 1.1rem; }
+ul.circle {
+    list-style-type: circle;
+    margin-left: 1.1rem; }
+ul.disc {
+    list-style-type: disc;
+    margin-left: 1.1rem; }
+ul.no-bullet {
+    list-style: none; }
+
+/* Ordered Lists */
+ol {
+    margin-left: 1.4rem; }
+ol li ul, ol li ol {
+    margin-left: 1.25rem;
+    margin-bottom: 0; }
+
+/* Definition Lists */
+dl dt {
+    margin-bottom: 0.3rem;
+    font-weight: bold; }
+dl dd {
+    margin-bottom: 0.75rem; }
+
+/* Abbreviations */
+abbr, acronym {
+    text-transform: uppercase;
+    font-size: 90%;
+    color: #222222;
+    border-bottom: 1px dotted #dddddd;
+    cursor: help; }
+
+abbr {
+    text-transform: none; }
+
+/* Blockquotes */
+blockquote {
+    margin: 0 0 1.25rem;
+    padding: 0.5625rem 1.25rem 0 1.1875rem;
+    border-left: 1px solid #dddddd; }
+blockquote cite {
+    display: block;
+    font-size: 0.8125rem;
+    color: #555555; }
+blockquote cite:before {
+    content: "\2014 \0020"; }
+blockquote cite a, blockquote cite a:visited {
+    color: #555555; }
+
+blockquote, blockquote p {
+    line-height: 1.6;
+    color: #6f6f6f; }
+
+/* Microformats */
+.vcard {
+    display: inline-block;
+    margin: 0 0 1.25rem 0;
+    border: 1px solid #dddddd;
+    padding: 0.625rem 0.75rem; }
+.vcard li {
+    margin: 0;
+    display: block; }
+.vcard .fn {
+    font-weight: bold;
+    font-size: 0.9375rem; }
+
+.vevent .summary {
+    font-weight: bold; }
+.vevent abbr {
+    cursor: default;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    padding: 0 0.0625rem; }
+
+#main-content .right-text {
+        text-align: right; }
+    #main-content .centered-text {
+        text-align: center; }
